@@ -15,4 +15,9 @@ Cmd -funktiolla voi hallita suoritettuja komentoja.
 
 c) Idempotentti pitää tietokannan tilan muuttumattomana, vaikka saman komennon, joka ei tee muutoksia, suorittaisi useamman kerran.
 
-d) Grains.item tekniikalla saa näkyviin paljon tietoja koneesta. 
+d) Grains.item tekniikalla saa näkyviin paljon hyödyllisiä tietoja koneesta. Kolme kiinnostavinta kohtaa:
+    1. master: salt
+    2. saltversion: 3006.4
+    3. IPv4: 10.0.2.15
+
+Lähteet: terokarvinen.com & https://saltproject.io 
