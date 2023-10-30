@@ -1,4 +1,4 @@
-x) Verkkosivun luominen GitHubissa
+## x) Verkkosivun luominen GitHubissa
     1. Kirjaudu tai rekisteröidy GitHubiin
     2. Luo uusi julkinen arkisto
     3. Luo uusi tiedosto
@@ -18,7 +18,7 @@ Cmd -funktiolla voi hallita suoritettuja komentoja.
 ## c) Idempotentti. Anna esimerkki idempotenssista. Aja 'salt-call --local' komentoja, analysoi tulokset, selitä miten idempotenssi ilmenee.
 Idempotentti pitää tietokannan tilan muuttumattomana, vaikka saman komennon, joka ei tee muutoksia, suorittaisi useamman kerran.
 
-d)Tietoa koneesta. Kerää tietoja koneesta Saltin grains.items -tekniikalla. Poimi kolme kiinnostavaa kohtaa, näytä tulokset ('grains.item osfinger virtual') ja analysoi ne.
+## d)Tietoa koneesta. Kerää tietoja koneesta Saltin grains.items -tekniikalla. Poimi kolme kiinnostavaa kohtaa, näytä tulokset ('grains.item osfinger virtual') ja analysoi ne.
 Grains.item tekniikalla saa näkyviin paljon hyödyllisiä tietoja koneesta. Kolme kiinnostavinta kohtaa:
     1. master: salt
     2. saltversion: 3006.4
