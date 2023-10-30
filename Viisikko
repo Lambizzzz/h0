@@ -1,0 +1,18 @@
+x) Verkkosivun luominen GitHubissa
+    1. Kirjaudu tai rekisteröidy GitHubiin
+    2. Luo uusi julkinen arkisto
+    3. Luo uusi tiedosto
+
+   Salt komentojen käyttö paikallisesti
+    1. Asenna Salt Slave daemon
+    2. Testaa Saltin tärkeimpiä tilafunktiota pkg, file, service, user ja cmd.
+
+a) Asensin Saltin Debian virtuaalikoneelleni asennusohjeiden mukaisesti. 
+
+b) Testailin Saltin viittä tärkeimpää tilafunktiota virtuaalikoneeni terminaalissa. Pkg -funktiota käyttäen asensin ja poistin puu sovelluksen. 
+File -funktiolla asensin ja muokkasin tekstitiedostoa. Service -funktiolla voi käynnistää palveluja. User -funktiolla voi luoda ja hallinnoida käyttäjiä ja ryhmiä.
+Cmd -funktiolla voi hallita suoritettuja komentoja.
+
+c) Idempotentti pitää tietokannan tilan muuttumattomana, vaikka saman komennon, joka ei tee muutoksia, suorittaisi useamman kerran.
+
+d) Grains.item tekniikalla saa näkyviin paljon tietoja koneesta. 
