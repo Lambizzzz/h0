@@ -7,17 +7,21 @@ x) Verkkosivun luominen GitHubissa
     1. Asenna Salt Slave daemon
     2. Testaa Saltin tärkeimpiä tilafunktiota pkg, file, service, user ja cmd.
 
-a) Asensin Saltin Debian virtuaalikoneelleni asennusohjeiden mukaisesti. 
+## a) Asenna Salt (salt-minion) koneellesi.
+Asensin Saltin Debian virtuaalikoneelleni asennusohjeiden mukaisesti. 
 
-b) Testailin Saltin viittä tärkeimpää tilafunktiota virtuaalikoneeni terminaalissa. Pkg -funktiota käyttäen asensin ja poistin puu sovelluksen. 
+## b) Viisi tärkeintä. Näytä esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
+Testailin Saltin viittä tärkeimpää tilafunktiota virtuaalikoneeni terminaalissa. Pkg -funktiota käyttäen asensin ja poistin puu sovelluksen. 
 File -funktiolla asensin ja muokkasin tekstitiedostoa. Service -funktiolla voi käynnistää palveluja. User -funktiolla voi luoda ja hallinnoida käyttäjiä ja ryhmiä.
 Cmd -funktiolla voi hallita suoritettuja komentoja.
 
-c) Idempotentti pitää tietokannan tilan muuttumattomana, vaikka saman komennon, joka ei tee muutoksia, suorittaisi useamman kerran.
+## c) Idempotentti. Anna esimerkki idempotenssista. Aja 'salt-call --local' komentoja, analysoi tulokset, selitä miten idempotenssi ilmenee.
+Idempotentti pitää tietokannan tilan muuttumattomana, vaikka saman komennon, joka ei tee muutoksia, suorittaisi useamman kerran.
 
-d) Grains.item tekniikalla saa näkyviin paljon hyödyllisiä tietoja koneesta. Kolme kiinnostavinta kohtaa:
+d)Tietoa koneesta. Kerää tietoja koneesta Saltin grains.items -tekniikalla. Poimi kolme kiinnostavaa kohtaa, näytä tulokset ('grains.item osfinger virtual') ja analysoi ne.
+Grains.item tekniikalla saa näkyviin paljon hyödyllisiä tietoja koneesta. Kolme kiinnostavinta kohtaa:
     1. master: salt
     2. saltversion: 3006.4
     3. IPv4: 10.0.2.15
 
-Lähteet: terokarvinen.com & https://saltproject.io 
+## Lähteet: http://terokarvinen.com & https://saltproject.io 
